@@ -1,21 +1,2 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        /**
-        * @name Discolored
-        * @author snapper#0001, Nyria#4198
-        * @description Colorize Discord's boring SVGs
-        * @version 1.3
-        */
-        @import "https://nyri4.github.io/Discolored/main.css";
-    </style>
-</head>
-<body>
-    <script>
-        var script = document.createElement('script');
-        script.src = "https://mwittrien.github.io/BetterDiscordAddons/Plugins/DisplayServersAsChannels/DisplayServersAsChannels.plugin.js";
-        document.body.appendChild(script);
-    </script>
-</body>
-</html>
+@import "https://nyri4.github.io/Discolored/main.css";
+@import "https://raw.githubusercontent.com/Eratas/Discolored-ServersAsChannels/master/support/sac.html";
